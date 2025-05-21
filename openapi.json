@@ -15,9 +15,7 @@
               "application/json": {
                 "schema": {
                   "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/File"
-                  }
+                  "items": { "$ref": "#/components/schemas/File" }
                 }
               }
             }
@@ -92,8 +90,8 @@
       "File": {
         "type": "object",
         "properties": {
-          "id": { "type": "string" },
-          "name": { "type": "string" },
+          "id":       { "type": "string" },
+          "name":     { "type": "string" },
           "mimeType": { "type": "string" }
         }
       }
